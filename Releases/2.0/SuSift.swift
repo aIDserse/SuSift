@@ -162,9 +162,9 @@ print("8 - Cbrt")
 print("9 - Sin")
 print("10 - Cos")
 print("11 - Tan")
-print("12 - Sin")
-print("13 - Cos")
-print("14 - Tan")
+print("12 - aSin")
+print("13 - aCos")
+print("14 - aTan")
 print("15 - Quit")
 
 option = Int(readLine()!)!
