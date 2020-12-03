@@ -154,7 +154,7 @@ print(c)
 }
 func quit()
 {
-    print("Goodbye, good job:)")
+    print("Quitting calculator...")
 }
 func seleziona()
 {
@@ -252,5 +252,5 @@ if( x == "Yes" || x == "YES" || x == "yes" || x == "Y" || x == "y" || x == "Yep"
 }
 if ( x != "Yes" || x != "YES" || x != "yes" || x != "Y" || x != "y" || x != "Yep" || x != "yep" || x != "YEP")
 {
-    print("Leaving the calculator, have a nice day:)")
+    print("Goodbye and good job :)")
 }
