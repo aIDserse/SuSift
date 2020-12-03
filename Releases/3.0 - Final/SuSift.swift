@@ -7,6 +7,7 @@
 //  Licensed under WFTPL license. Do the GPL you want with it!
 //
 import Foundation
+var x:String = "a"
 func addition()
 {
 var a = Float()
@@ -241,15 +242,15 @@ else if(option == 15)
 {
     quit()
 }
+print("Do you want to do other operations?")
+x = String(readLine()!)
 }
 seleziona()
-print("Do you want to do other operations?")
-var x = readLine()
-if (x == "Yes" || x == "YES" || x == "yes" || x == "Y" || x == "y" || x == "Yep" || x == "yep" || x == "YEP")
+if( x == "Yes" || x == "YES" || x == "yes" || x == "Y" || x == "y" || x == "Yep" || x == "yep" || x == "YEP")
 {
     seleziona()
 }
-else
+if ( x != "Yes" || x != "YES" || x != "yes" || x != "Y" || x != "y" || x != "Yep" || x != "yep" || x != "YEP")
 {
     print("Leaving the calculator, have a nice day:)")
 }
