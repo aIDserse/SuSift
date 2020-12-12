@@ -103,6 +103,7 @@ func sin()
 var a = Float()
 print("Sin of:")
 a = Float(readLine()!)!
+a = a * Float.pi / 180
 print("Sin of \(a) =")
 let c = sin(a)
 print(c)
@@ -112,6 +113,7 @@ func cos()
 var a = Float()
 print("Cos of:")
 a = Float(readLine()!)!
+a = a * Float.pi / 180
 print("Cos of \(a) =")
 let c = cos(a)
 print(c)
@@ -121,6 +123,7 @@ func tan()
 var a = Float()
 print("Tan of:")
 a = Float(readLine()!)!
+a = a * Float.pi / 180
 print("Tan of \(a) =")
 let c = tan(a)
 print(c)
@@ -130,6 +133,7 @@ func asin()
 var a = Float()
 print("Sin^-1 of:")
 a = Float(readLine()!)!
+a = a / Float.pi * 180
 print("\(a)^2 =")
 let c = asin(a)
 print(c)
@@ -139,6 +143,7 @@ func acos()
 var a = Float()
 print("Cos^-1 of:")
 a = Float(readLine()!)!
+a = a / Float.pi * 180
 print("Cos^-1 \(a) =")
 let c = acos(a)
 print(c)
@@ -148,6 +153,7 @@ func atan()
 var a = Float()
 print("Tan^-1 of:")
 a = Float(readLine()!)!
+a = a / Float.pi * 180
 print("Tan^-1 of \(a) =")
 let c = atan(a)
 print(c)
