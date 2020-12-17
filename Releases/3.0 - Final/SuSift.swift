@@ -134,7 +134,7 @@ var a = Float()
 print("Sin^-1 of:")
 a = Float(readLine()!)!
 a = a / Float.pi * 180
-print("\(a)^2 =")
+print("Sin^-1 \(a) =")
 let c = asin(a)
 print(c)
 }
